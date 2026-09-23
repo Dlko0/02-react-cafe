@@ -1,14 +1,34 @@
-# react-cafe-styles
+# React Café
 
-🎨 CSS Modules for the “React Café” homework from the React + TypeScript course.
+A small React + TypeScript app for a café feedback form.
 
-This repository contains **ready-to-use styles** for the components used in the feedback widget project (`react-cafe` homework). Students should copy these `.module.css` files into their own project after creating the corresponding components manually.
+## Repository and live page
 
-## How to use
+- GitHub repository: add your public repository URL here
+- Live demo: add your public Vercel or Netlify URL here after deployment
 
-1. Create your project manually using Vite + React + TypeScript.
-2. Create each component in `src/components/`, following the structure above.
-3. Copy the `.module.css` files from this repository into the appropriate folders.
-4. Use the provided class names in your JSX.
+## Deployment
 
-> No need to write your own styles — just focus on React and TypeScript logic.
+This project is a static Vite application and is ready to be published on Vercel or Netlify.
+
+1. Push the repository to GitHub.
+2. Import the project into Vercel or Netlify.
+3. Use the default Vite build settings:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+4. Copy the generated public URL and add it here.
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+> The grader expects both a repository link and a working live page link. Without a public deployment, the assignment will be marked as incomplete.
